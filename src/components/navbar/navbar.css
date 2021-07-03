@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+div.navbar {
+  z-index: 3;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.navbar div.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div.navbar div.nav ul {
+  margin-left: 10%;
+  justify-content: space-evenly;
+  display: flex;
+  width: 40vw;
+}
+
+div.navbar ul li {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+div.nav ul li a {
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+div.nav ul li a:hover {
+  color: #cf000f;
+  transition: 0.3s ease-in-out;
+}
+
+
+a.mail {
+  /* padding: 10px; */
+  padding: 10px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+
+div.social {
+  position: fixed;
+  left: 2%;
+  top: 50%;
+  transform: translate(0, -50%);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+div.social a svg{
+  margin: 20%;
+}
+path.fill {
+  fill: white;
+  transition: 0.4s ease-in-out;
+}
+
+a:hover svg path.fill {
+  fill: #cf000f;
+  transition: 0.4s ease-in-out;
+}
+
+div.progress{
+  position: fixed;
+  width: 1.5px;
+  height: 400px;
+  background-color: white;
+  right: 2%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+div.complete{
+  position: absolute;
+
+  width: 1.5px;
+  height: 20%;
+  background-color: #cf000f;
+}
