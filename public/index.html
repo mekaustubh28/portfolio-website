@@ -16,9 +16,18 @@
     src: url(Monument\ Font/normal.otf) format('truetype');
   }
 
+  body{
+    overflow: hidden;
+  }
+
   * {
     cursor: none;
     font-family: monument, cursive;
+  }
+
+  *::selection{
+    color: white;
+    background-color: #cf000ea1;
   }
 
   .cursor {

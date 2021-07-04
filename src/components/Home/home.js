@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="background" onMouseMove={backgroundMove} style={{position:"fixed",transform:Transform,zIndex:-9}}>
+      <div className="background" onMouseMove={backgroundMove} style={{position:"absolute",transform:Transform,zIndex:-9}}>
       {/* <span className="topleft">👇You are great!</span><span className="bottomleft">👉You are Awesome!</span><span className="bottomright">🎁 You just got the hidden Treasure<a>Hidden</a>!</span> */}
       </div>
       <div className="container">
