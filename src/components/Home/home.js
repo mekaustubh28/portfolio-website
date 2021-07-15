@@ -1,16 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import Styling from "./home.css";
+import React from 'react';
+import "./home.css";
 import { Link } from "react-router-dom";
 
 
 export default function Home() {
-
-  // const [Transform, setTransform] = useState("")
-
-  // const backgroundMove = (e) => {
-  //   setTransform("translate(" + e.clientX * -10 / window.innerWidth + "%," + e.clientY * -10 / window.innerHeight + "%)" );
-  //   console.log(Transform);
-  // }
 
   return (
     <>

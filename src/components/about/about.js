@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Styling from "./about.css"
+import React from 'react'
+import "./about.css"
 import myPhoto from "../statics/2.jpg"
 import halfPic from "../statics/half.jpg"
 import Icons from './Icons'
@@ -20,7 +20,7 @@ export default function About() {
             <div className="moreInfo profile">
               <h1>MORE ABOUT ME<span className="dot">.</span></h1>
               <p>--Lets open my book--</p>
-              <h3>I am currently pursing my BTech from <a href="https://nith.ac.in/" target="_blank" style={{ color: '#cf000f' }}>NIT,Hamirpur</a>.I am a Python Developer, who loves to build dyanmic and responsive website. I am also member of <a href="https://www.istenith.com/" target="_blank" style={{ color: '#cf000f' }}>ISTE, NITH Chapter</a>.</h3>
+              <h3>I am currently pursing my BTech from <a href="https://nith.ac.in/" target="_blank" style={{ color: '#cf000f' }} rel="noreferrer">NIT,Hamirpur</a>.I am a Python Developer, who loves to build dyanmic and responsive website. I am also member of <a href="https://www.istenith.com/" target="_blank" style={{ color: '#cf000f' }}>ISTE, NITH Chapter</a>.</h3>
               <br></br>
               <p>I love to talk to different people. Over a year i have tried to boost my skills and learn new stuff. if i am not at my desk, you will find me playing badminton or sleeping.</p>
               <br></br>
@@ -28,7 +28,7 @@ export default function About() {
               <br></br>
               <a className="contact" href="/contact">Let's Talk</a><span style={{ margin: '2%' }}></span>
               <div className="extrafora"></div>
-              <a className="contact" href="https://drive.google.com/file/d/1kIEb3vISwF3v6XIWe8rHqglMM8G-b-wC/view?usp=sharing" target="_blank">My Resume</a>
+              <a className="contact" href="https://drive.google.com/file/d/1kIEb3vISwF3v6XIWe8rHqglMM8G-b-wC/view?usp=sharing" target="_blank" rel="noreferrer">My Resume</a>
             </div>
           </div>
           <div className="aboutRight about">

@@ -1,10 +1,9 @@
 import React from "react";
-import { BrowserRouter,Redirect, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 import Error404 from "./404/error404";
 import About from "./about/about";
 import Blog from "./blog/blog";
 import Home from "./Home/home";
-import PopUp from "./popup/popup";
 
 export default function App() {
     return (

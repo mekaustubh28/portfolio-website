@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Styling from "./contact.css"
+import "./contact.css"
 import Footer from "../Footer/footer"
 import axios from 'axios'
 

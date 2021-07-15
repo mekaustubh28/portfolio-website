@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Styling from "./portfolio.css"
+import React from 'react'
+import "./portfolio.css"
 import Footer from "../Footer/footer"
 import portfolio from "../statics/portfolio.png"
 import Edification from "../statics/edification.png"
@@ -45,17 +45,6 @@ const Projects = [
 
 export default function Portfolio() {
 
-
-  const ShowProject = (e) => {
-    var id = e.target.id
-
-    for (var x = 0; x < Projects.length; x++) {
-      if (id === Projects[x].name) {
-        console.log(Projects[x].image);
-      }
-    }
-  }
-
   return (
     <div className="portfolio-container">
       <div className="backgroundPortfolio" style={{ position: "fixed", zIndex: -9 }}></div>
@@ -66,7 +55,7 @@ export default function Portfolio() {
         <div className="projects">
           {Projects.map((value, index) => {
             return (
-              <a className="project" id={value.name} key={index} onMouseOver={ShowProject}>
+              <a className="project" id={value.name} key={index}>
                 <img src={value.image} className={value.name} alt="projectImage" />
                 <div className="details">
                   <div className="projectName">

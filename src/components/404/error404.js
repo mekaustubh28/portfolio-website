@@ -1,5 +1,5 @@
 import React from 'react'
-import Styling from './error404.css'
+import './error404.css'
 import sadGIf from "../statics/sad.gif"
 import { Link } from "react-router-dom";
 import Footer from '../Footer/footer'

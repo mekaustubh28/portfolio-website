@@ -16,27 +16,15 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>  
-          <Route path="/home">
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home">
             <Redirect to="/"></Redirect>
           </Route>  
-          <Route  path="/portfolio">
-            <Portfolio />
-          </Route>  
-          <Route  path="/about">
-            <About />
-          </Route>
-          <Route path="/blog">
-            <Blog />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="*">
-            <Error404 />
-          </Route>
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/about" component={About} />
+          {/* <Route exact path="/blog" component={Blog} /> */}
+          <Route exact path="/contact" component={Contact} />
+          <Route path="*" component={Error404} />
         </Switch>
       </BrowserRouter>
     </div>

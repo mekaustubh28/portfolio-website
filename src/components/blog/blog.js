@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch, Route, useRouteMatch, Redirect } from 'react-router-dom';
+import {Switch, Route, useRouteMatch } from 'react-router-dom';
 import Error404 from '../404/error404';
 import Blog1 from './blog1';
 import Blog2 from './blog2';

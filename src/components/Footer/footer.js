@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import Styling from "./footer.css"
+import React from 'react'
+import "./footer.css"
 import ContactSVG from "../statics/mail.svg"
 import Logo from "../statics/logo2.svg"
 

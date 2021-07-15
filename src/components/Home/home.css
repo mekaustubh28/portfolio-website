@@ -23,7 +23,6 @@ div.home div.info{
     position: absolute;
     top: 30%;
     left: 20%;
-    /* transform: translate(-50%,-50%); */
 }
 
 div.info p{
