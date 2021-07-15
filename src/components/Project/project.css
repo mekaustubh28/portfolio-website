@@ -1,4 +1,4 @@
-div.backgroundPortfolio {
+div.backgroundProject {
     filter: brightness(8%);
     width: 100vw;
     height: 100vh;
@@ -19,22 +19,22 @@ div.backgroundPortfolio {
     }
 }
 
-div.portfolio-container {
+div.project-container {
     border: 1px solid transparent;
 }
 
-div.portfolio {
+div.project {
     margin: 17% auto;
     width: 1920px;
 }
 
-div.title-portfolio h1 {
+div.title-project h1 {
     font-size: 50px;
     text-transform: uppercase;
     color: #cf000f;
 }
 
-div.title-portfolio h1 span {
+div.title-project h1 span {
     font-size: 150%;
 }
 
@@ -135,7 +135,7 @@ a.project:hover img {
 }
 
 @media screen and (max-width:2185px) {
-    div.portfolio {
+    div.project {
         margin: 17% auto;
         width: 80%;
     }

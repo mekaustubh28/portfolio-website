@@ -18,7 +18,7 @@ export default function Home() {
           <p>I love to develop and design beautiful website, <br></br> with help of awesome animations and UI effects. </p>
           <br></br>
           <Link className="contact" to="/contact">Let's Talk</Link><span style={{margin:'2%'}}>or</span>
-          <Link className="contact" to="/portfolio">View Work</Link>
+          <Link className="contact" to="/project">View Work</Link>
         </div>
          {/* <a className="down"><span></span></a> */}
       </div>

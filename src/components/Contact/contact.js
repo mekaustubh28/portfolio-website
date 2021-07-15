@@ -4,7 +4,7 @@ import Footer from "../Footer/footer"
 import axios from 'axios'
 
 
-export default function Portfolio() {
+export default function Contact() {
   
   var date = new Date();
   const [form, setForm] = useState({

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./portfolio.css"
+import "./project.css"
 import Footer from "../Footer/footer"
 import portfolio from "../statics/portfolio.png"
 import Edification from "../statics/edification.png"
@@ -43,13 +43,13 @@ const Projects = [
 ]
 
 
-export default function Portfolio() {
+export default function Project() {
 
   return (
-    <div className="portfolio-container">
-      <div className="backgroundPortfolio" style={{ position: "fixed", zIndex: -9 }}></div>
-      <div className="portfolio">
-        <div className="title-portfolio">
+    <div className="project-container">
+      <div className="backgroundProject" style={{ position: "fixed", zIndex: -9 }}></div>
+      <div className="project">
+        <div className="title-project">
           <h1>Selected Projects<span>.</span></h1>
         </div>
         <div className="projects">

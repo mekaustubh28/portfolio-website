@@ -7,7 +7,7 @@ import Blog from "./blog/blog";
 import Home from "./Home/home"
 import Navbar from "./navbar/navbar";
 import Contact from "./Contact/contact"
-import Portfolio from "./Portfolio/portfolio";
+import Project from "./Project/project";
 
 export default function App() {
   
@@ -20,7 +20,7 @@ export default function App() {
           <Route exact path="/home">
             <Redirect to="/"></Redirect>
           </Route>  
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/project" component={Project} />
           <Route exact path="/about" component={About} />
           {/* <Route exact path="/blog" component={Blog} /> */}
           <Route exact path="/contact" component={Contact} />

@@ -23,8 +23,8 @@ export default function Navbar() {
               Home
             </NavLink>
           </li>
-          <li className="portfolio">
-            <NavLink to="/portfolio" id="portfolio" activeStyle={{color:'#cf000f'}}>
+          <li className="project">
+            <NavLink to="/project" id="project" activeStyle={{color:'#cf000f'}}>
               <span className="svgForMobile">
                 <svg version="1.0"
                   width="40" height="22" viewBox="0 0 1280.000000 853.000000"
@@ -44,7 +44,7 @@ export default function Navbar() {
                 </svg>
                 <br></br>
               </span>
-              Portfolio
+              Project
             </NavLink>
           </li>
           <li className="about">
