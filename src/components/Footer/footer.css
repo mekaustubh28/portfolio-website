@@ -1,0 +1,76 @@
+div.footer{
+    margin: auto;
+    width: 80%;
+    /* text-align: center; */
+    border-top: 2px solid rgba(245, 245, 245, 0.274);
+    display: flex;
+    padding: 3% 0 100px 0;
+    justify-content: space-between;
+}
+
+
+div.footer div{
+    flex: none;
+}
+
+div.contactInfo h2{
+    color: #cf000f;
+}
+
+div.contactInfo p{
+    color: rgba(245, 245, 245, 0.384);
+    margin: 10px 0 10px 0;
+}
+div.contactInfo a{
+    align-items: center;
+    color: whitesmoke;
+}
+
+div.contactInfo a span{
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+}
+
+h2.day{
+    margin-top: 10px;
+}
+
+h2.day span{
+    margin: 0 10px 0 10px;
+}
+
+div.copyright{
+    color: rgba(245, 245, 245, 0.384);
+}
+a.getCode{
+    padding-bottom: 5px;
+    color: rgba(245, 245, 245, 0.384);
+    transition: 0.3s ease-in-out;
+}
+
+a.getCode:hover{
+    border-bottom: 2px solid #cf000f;
+    transition: 0.3s ease-in-out;
+}
+
+a.getCode span{
+    position: relative;
+    top:9px
+}
+
+
+/* *********************************************CSS for Mobile******************************** */
+
+@media screen and (max-width:664px) {
+    div.footer{
+        display: block;
+        text-align: center;
+    }
+
+    div.contactInfo{
+        margin: 10% 0 10% 0;
+        /* border: 1px solid red; */
+    }
+}
+

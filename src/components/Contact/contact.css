@@ -1,0 +1,157 @@
+div.backgroundContact{
+    filter: brightness(10%);
+    width: 100vw;
+    height: 100vh;
+    background-image:url('../statics/contactimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.534);
+    animation: zoom 10s infinite alternate;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+div.contact-container {
+    border: 1px solid transparent;
+}
+
+div.contact {
+    margin: 17% 10% 0 10%;
+}
+
+div.title-contact h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #cf000f;
+}
+
+div.title-contact h1 span {
+    font-size: 150%;
+}
+
+div.contact-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+div.contact-form div {
+    padding: 0px 40px 40px 40px;
+}
+
+div.address p {
+    color: rgba(245, 245, 245, 0.384);
+    margin: 30px 0 10px 0;
+}
+
+div.form h2 {
+    font-weight: lighter;
+}
+
+div.form h2 span {
+    color: #cf000f;
+}
+
+div.form .input {
+    width: 70%;
+    margin: 10px 0;
+    padding: 5px 0px 20px 10px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+div.form div.form-submit {
+    padding: 40px 0 0 0;
+}
+
+div.form input.submit {
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #cf000f;
+    border: 3px solid #cf000f;
+    padding: 1.5% 5%;
+    font-size: 17px;
+    transition: all 0.5s ease;
+}
+
+div.form input.submit:hover {
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+.success,
+.failure {
+    display: none;
+}
+
+div.form-submit h2#success {
+    border: 1px solid rgba(64, 255, 47, 0.308);
+    border-radius: 10px;
+    font-size: 18px;
+    color: green;
+    width: max-content;
+    padding: 1.5% 3%;
+    background-color: rgba(0, 128, 0, 0.144);
+}
+
+div.form-submit h2#failure {
+    border: 1px solid rgba(255, 47, 47, 0.308);
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(185, 0, 0);
+    width: max-content;
+    padding: 1.5% 3%;
+    background-color: rgba(128, 0, 0, 0.144);
+}
+
+@media screen and (max-width:1626px) {
+
+    div.form .input {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1272px) {
+
+    div.contact-form div.form {
+        padding: 0;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    div.contact-form div.form {
+        padding: 0 10px 10px 0px;
+        margin-left: 20%;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+
+    div.contact-form {
+        width: 100%;
+        display: block;
+    }
+    
+    div.contact-form div.form {
+        margin: 10%;
+    }
+
+    div.contact{
+        text-align: center;
+    }
+}

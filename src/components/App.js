@@ -7,11 +7,12 @@ import Blog from "./blog/blog";
 import Home from "./Home/home"
 import Navbar from "./navbar/navbar";
 import Contact from "./Contact/contact"
+import Portfolio from "./Portfolio/portfolio";
 
 export default function App() {
-
+  
   return (
-    <div>
+    <div className="most-main-container">
       <BrowserRouter>
         <Navbar />
         <Switch>
@@ -20,6 +21,9 @@ export default function App() {
           </Route>  
           <Route path="/home">
             <Redirect to="/"></Redirect>
+          </Route>  
+          <Route  path="/portfolio">
+            <Portfolio />
           </Route>  
           <Route  path="/about">
             <About />

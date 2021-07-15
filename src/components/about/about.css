@@ -1,0 +1,368 @@
+/******************************* TOP Container for Desktop ***************************/
+
+div.container-about {
+    width: 100vw;
+}
+
+div.top-container {
+    display: flex;
+}
+
+div.top-container div.about {
+    position: relative;
+    flex: none;
+    width: 50%;
+    height: 99vh;
+    width: 50vw;
+    /* border: 1px solid red; */
+}
+
+div.profile {
+    position: relative;
+    left: 50%;
+    top: 60%;
+    transform: translate(-30%, -50%);
+}
+
+
+div.moreInfo {
+    width: 55%;
+    /* text-align: center; */
+}
+
+div.moreInfo h1 {
+    font-size: 50px;
+    color: #cf000f;
+}
+
+span.dot {
+    font-size: 150%;
+}
+
+div.moreInfo p {
+    font-size: large;
+    margin: 1% 0 2% 0;
+    color: rgba(245, 245, 245, 0.534);
+}
+
+div.moreInfo h3 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+div.moreInfo a.contact {
+    text-decoration: none;
+    background-color: #cf000f;
+    border: 3px solid #cf000f;
+    padding: 2.5% 7%;
+    font-size: larger;
+    transition: all 0.5s ease;
+}
+
+div.extrafora{
+    display: none;
+    height: 50px;
+}
+
+div.moreInfo a.contact:hover {
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+div.image {
+    width: 50%;
+    left: 30%;
+    opacity: 60%;
+}
+
+div.image img {
+    border-radius: 50px 0 50px 0;
+    width: 400px;
+    /* filter: saturate(3); */
+    /* filter: grayscale(100%); */
+    /* filter: contrast(160%); */
+    /* filter: brightness(0.9); */
+    /* filter: blur(3px); */
+    /* filter: invert(100%); */
+    /* filter: sepia(100%); */
+    /* filter: hue-rotate(180deg); */
+    filter: opacity(80%);
+    /* overflow: hidden; */
+}
+
+div.image p {
+    font-size: small;
+    color: rgba(255, 255, 255, 0.452);
+}
+
+/******************************* TOP Container for Mobile ***************************/
+
+@media screen and (max-width:1435px) {
+    div.moreInfo {
+        width: 70%;
+    }
+
+    div.profile {
+        position: relative;
+        left: 30%;
+        top: 60%;
+        transform: translate(-20%, -50%);
+    }
+}
+
+@media screen and (max-width:1138px) {
+
+    div.moreInfo {
+        width: 80%;
+        left: 50%;
+        top: 60%;
+        transform: translate(-30%, -50%);
+    }
+
+    div.moreInfo h1 {
+        font: 80%;
+    }
+}
+
+@media screen and (max-width:1000px) {
+
+    div.top-container {
+        display: block;
+    }
+
+    div.top-container div.about {
+        position: relative;
+        flex: none;
+        width: 100vw;
+        /* border: 1px solid red; */
+        height: max-content;
+        padding-top: 100px;
+    }
+
+    div.profile {
+        position: relative;
+        width: 50%;
+        left: 50%;
+        top: 20%;
+        transform: translate(-50%, 0);
+    }
+
+    div.profile {
+        width: 70%;
+    }
+    
+    div.image img {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width:662px) {
+
+    div.moreInfo {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:406px) {
+
+    div.extrafora{
+        display: block;
+        height: 50px;
+    }
+
+}
+
+
+/******************************* Second Container for Desktop ***************************/
+
+div.second-container {
+    height: 500px;
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0px 30px 100px #ffffff20;
+    display: flex;
+}
+
+div.second-container div.time-skill {
+    flex: none;
+    width: 50%;
+    text-align: center;
+    margin-top: 4%;
+    /* border: 1px solid red; */
+}
+
+div.year {
+    border-left: 2px solid rgba(255, 255, 255, 0.459);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.459);
+    width: 300px;
+    height: 75%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+div.year h1 {
+    font-size: 200px;
+}
+
+div.year h1 span {
+    color: #cf000f;
+}
+
+div.year p {
+    color: rgba(255, 255, 255, 0.459);
+    border-bottom: 2px solid #cf000f;
+    padding: 2%;
+    width: fit-content;
+    margin: auto;
+}
+
+div.skills {
+    padding: 40px 2% 2% 2%;
+    width: 30% !important;
+}
+
+div.eachSkill {
+    padding: 2%;
+    margin: 5% auto;
+    width: fit-content;
+    border-left: 2px solid #cf000f;
+    border-bottom: 2px solid #cf000f;
+}
+
+div.eachSkill h3 {
+    font-weight: lighter;
+}
+
+/* ***************************************Second Container CSS for mobile ************************* */
+
+@media screen and (max-width:986px) {
+    div.second-container {
+        height: 400px;
+        width: 100%;
+        background-color: rgb(19, 19, 19);
+        box-shadow: 0px 30px 100px #ffffff20;
+        display: flex;
+    }
+
+    div.year h1 {
+        font-size: 150px;
+    }
+
+    div.year {
+        padding-bottom: 10%;
+        border-left: 2px solid rgba(255, 255, 255, 0.459);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.459);
+        width: 250px;
+        height: fit-content;
+        margin: auto;
+        /* border: 1px solid red; */
+    }
+}
+
+@media screen and (max-width:796px) {
+    div.second-container {
+        display: contents;
+    }
+    
+    div.second-container div.time-skill {
+        margin: auto;
+        margin-top: 5%;
+    }
+}
+
+
+@media screen and (max-width:460px) {
+    
+    div.year {
+        padding-bottom: 10%;
+        width: 200px;
+        height: fit-content;
+        margin: auto;
+        margin-top: 100px;
+        /* border: 1px solid red; */
+    }
+}
+
+
+/* ************************************CSS for Third Container *********************** */
+
+div.Third-container{
+    height: 450px;
+}
+
+
+div.Third-container img.halfPic{
+    float: right;
+    position: relative;
+    top: -100px;
+    opacity: 0.5;
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+}
+
+div.randomFacts{
+    text-align: left;
+    width: fit-content;
+    position: relative;
+    top: 100px;
+    left: 30%;
+}
+
+div.randomFacts h1{
+    font-size: 50px;
+    color: #cf000f;
+    width: 100%;
+}
+
+div.randomFacts ul li{
+    color: rgba(245, 245, 245, 0.534);
+    margin: 4%;
+    width: 100%;
+    font-size: 110%;
+}
+
+@media screen and (max-width:960px) {
+    
+    div.Third-container img.halfPic{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:547px) {
+    
+    div.randomFacts{
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:461px) {
+    
+    div.randomFacts{
+        width: 100%;
+        left: 1%;
+    }
+}
+
+/* ******************************** CSS for Fourth-Container ********************************* */
+
+div.organizations{
+    text-align: center;
+    margin: 10% 10% 2% 10%;
+    /* border: 1px solid red; */
+}
+
+div.organizations h1{
+    font-size: 50px;
+    margin: 0 20% 0 20%;
+    color: #cf000f;
+}
+
+div.organizations p{
+    color: rgba(245, 245, 245, 0.534);
+}
+
+div.icons{
+    text-align: center;
+}
+

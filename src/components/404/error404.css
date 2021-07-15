@@ -1,0 +1,115 @@
+div.error-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+div.error-container div {
+    padding: 20% 0 0 10%;
+}
+
+div.message {
+    text-align: center;
+}
+
+div.message h1 {
+    font-size: 220px;
+    color: #cf000f;
+}
+
+div.message h2 {
+    font-size: 50px;
+}
+
+div.message h3 {
+    margin: 4% 0 8% 0;
+    color: #cf000f;
+    font-size: 30px;
+}
+
+div.message a {
+    text-decoration: none;
+    background-color: #cf000f;
+    border: 3px solid #cf000f;
+    padding: 2.5% 7%;
+    font-size: larger;
+    transition: all 0.5s ease;
+}
+
+div.message a:hover {
+    background-color: transparent;
+    transition: all 0.5s ease;
+}
+
+div.gif {
+    margin-top: 20%;
+    filter: opacity(0.8);
+}
+
+@media screen and (max-width:1194px) {
+
+    div.message h1 {
+        font-size: 180px;
+    }
+
+    div.message h2 {
+        font-size: 40px;
+    }
+
+    div.message h3 {
+        font-size: 30px;
+    }
+
+    div.gif {
+        margin-top: 10%;
+    }
+    div.gif img{
+        margin-top:5% ;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    div.error-container {
+        display: block;
+    }
+
+    div.error-container div.message {
+        padding: 20% 0 0 0%;
+        text-align: center;
+    }
+    
+    div.error-container div.gif{
+        text-align: center;
+        margin-top: 10%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:606px) {
+
+    div.message h1 {
+        font-size: 30vw;
+    }
+
+    div.message h2 {
+        font-size: 7vw;
+    }
+
+    div.message h3 {
+        font-size: 6vw;
+    }
+
+    div.message a {
+        padding: 2% 3%;
+        font-size: small;
+        transition: all 0.5s ease;
+    }
+    
+    div.message a:hover {
+        background-color: transparent;
+        transition: all 0.5s ease;
+    }
+
+    div.gif img{
+        width: 70%;
+    }
+}
