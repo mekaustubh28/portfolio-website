@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.58c1ec1b.chunk.css",
+    "main.js": "/portfolio-website/static/js/main.5ef3275f.chunk.js",
+    "main.js.map": "/portfolio-website/static/js/main.5ef3275f.chunk.js.map",
+    "runtime-main.js": "/portfolio-website/static/js/runtime-main.54efd280.js",
+    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.54efd280.js.map",
+    "static/js/2.62e213ea.chunk.js": "/portfolio-website/static/js/2.62e213ea.chunk.js",
+    "static/js/2.62e213ea.chunk.js.map": "/portfolio-website/static/js/2.62e213ea.chunk.js.map",
+    "index.html": "/portfolio-website/index.html",
+    "static/css/main.58c1ec1b.chunk.css.map": "/portfolio-website/static/css/main.58c1ec1b.chunk.css.map",
+    "static/js/2.62e213ea.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.62e213ea.chunk.js.LICENSE.txt",
+    "static/media/2.1c399937.jpg": "/portfolio-website/static/media/2.1c399937.jpg",
+    "static/media/home.css": "/portfolio-website/static/media/background.161851fb.jpg",
+    "static/media/project.css": "/portfolio-website/static/media/coding.409f109a.jpg",
+    "static/media/contact.css": "/portfolio-website/static/media/contactimg.63080c33.jpg",
+    "static/media/edification.535df60f.png": "/portfolio-website/static/media/edification.535df60f.png",
+    "static/media/half.cff1f4ff.jpg": "/portfolio-website/static/media/half.cff1f4ff.jpg",
+    "static/media/iste.4bbf3ab8.png": "/portfolio-website/static/media/iste.4bbf3ab8.png",
+    "static/media/iste.dd133c1f.svg": "/portfolio-website/static/media/iste.dd133c1f.svg",
+    "static/media/logo2.84f7b1aa.svg": "/portfolio-website/static/media/logo2.84f7b1aa.svg",
+    "static/media/mail.16ecfe1e.svg": "/portfolio-website/static/media/mail.16ecfe1e.svg",
+    "static/media/peddlers.36432425.png": "/portfolio-website/static/media/peddlers.36432425.png",
+    "static/media/portfolio.d0b6700e.png": "/portfolio-website/static/media/portfolio.d0b6700e.png",
+    "static/media/sad.60657e61.gif": "/portfolio-website/static/media/sad.60657e61.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54efd280.js",
+    "static/js/2.62e213ea.chunk.js",
+    "static/css/main.58c1ec1b.chunk.css",
+    "static/js/main.5ef3275f.chunk.js"
+  ]
+}
