@@ -94,8 +94,8 @@ a.project:hover div.projectName {
     transition: 0.4s ease-in-out;
 }
 
-p.desc{
-    margin: 20px 0; 
+p.desc {
+    margin: 20px 0;
 }
 
 div.projectLinks {
@@ -154,6 +154,19 @@ a.project:hover img {
     }
 }
 
+@media screen and (max-width:888px) {
+
+    a.link {
+        padding: 5px 10px;
+    }
+
+    a:hover div.projectLinks {
+        margin-top: 10px;
+        transition: 0.5s ease-in-out;
+    }
+
+}
+
 @media screen and (max-width:882px) {
     a.project {
         height: 200px;
@@ -168,7 +181,21 @@ a.project:hover img {
     a.project {
         height: 300px;
     }
-    
+
+}
+
+@media screen and (max-width:600px) {
+
+    div.title-project h1 {
+        font-size: 45px;
+    }
+
+    div.details h1 {
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+
 }
 
 @media screen and (max-width:598px) {
@@ -176,13 +203,80 @@ a.project:hover img {
     a.project {
         height: 250px;
     }
-    
+
+    a.project span.extraspace {
+        display: none;
+    }
+
+    a.project a.viewcode {
+        margin-right: 20px;
+    }
+
+    div.title-project h1 {
+        margin: -70px -20px 0px -30px;
+    }
+
 }
 
-@media screen and (max-width:452px) {
+@media screen and (max-width:537px) {
+
+    div.title-project h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:463px) {
 
     a.project {
-        height: 200px;
+        height: 210px;
     }
-    
+
+}
+
+@media screen and (max-width:459px) {
+
+    div.details {
+        margin: 30px 0 0 20px;
+    }
+}
+
+@media screen and (max-width:459px) {
+
+    a.project {
+        margin: 4% 0;
+    }
+}
+
+@media screen and (max-width:598px) {
+
+    div.title-project h1 {
+        margin: -30px -20px 0px -30px;
+    }
+
+    div.projects,
+    div.project {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+
+    div.details {
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width:360px) {
+    a.link {
+        padding: 7px;
+        font-size: small;
+    }
+
+    div.details span {
+        margin-right: 4px;
+    }
 }

@@ -1,8 +1,8 @@
-div.backgroundHome{
+div.backgroundHome {
     filter: brightness(25%);
     width: 110vw;
     height: 110vh;
-    background-image:url('../statics/background.jpg');
+    background-image: url('../statics/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.534);
@@ -19,24 +19,24 @@ div.backgroundHome{
     }
 }
 
-div.home div.info{
+div.home div.info {
     position: absolute;
     top: 30%;
     left: 20%;
 }
 
-div.info p{
+div.info p {
     margin: 3% 0 3% 0;
     font-size: 15px;
     color: rgb(236, 236, 236);
 }
 
-div.info h1{
+div.info h1 {
     font-size: 60px;
     color: #cf000f;
 }
 
-div.info a.contact{
+div.info a.contact {
     text-decoration: none;
     background-color: #cf000f;
     border: 3px solid #cf000f;
@@ -45,20 +45,50 @@ div.info a.contact{
     transition: all 0.5s ease;
 }
 
-div.info a.contact:hover{
+div.info a.contact:hover {
     background-color: transparent;
     transition: all 0.5s ease;
 }
 
-div.home a.down{
+div.home a.down {
     position: absolute;
     left: 50%;
     bottom: 2%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     height: 35px;
     width: 20px;
     border-radius: 50px;
     border: 2px solid #cf000f;
+}
+
+
+@media screen and (max-width:600px) {
+
+    div.home div.info {
+        top: 10%;
+        left: 10%;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+
+    div.home div.info {
+        top: 5%;
+        left: 3%;
+        text-align: center;
+    }
+
+    div.info h1 {
+        font-size: 50px;
+    }
+
+    div.info a.contact {
+        padding: 1.7% 4%;
+        font-size: 17px;
+        transition: all 0.5s ease;
+    }
+
 }
 
 /* a.down span{

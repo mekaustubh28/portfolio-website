@@ -72,8 +72,8 @@ export default function Project() {
                     <p className="desc">{value.desc}</p>
                   </div>
                   <div className="projectLinks">
-                    <a href={value.code} className="link" target="_blank" rel="noreferrer">View Code</a><br></br><br></br><br></br>
-                    <a href={value.website} className="link" target="_blank" rel="noreferrer">Visit Website</a>
+                    <a href={value.code} className="link viewcode" target="_blank" rel="noreferrer">View Code</a><span className="extraspace"><br></br><br></br><br></br></span>
+                    <a href={value.website} className="link viewwebsite" target="_blank" rel="noreferrer">Visit Website</a>
                   </div>
                 </div>
               </a>

@@ -140,6 +140,9 @@ div.complete {
     display: none;
   }
 
+  div.progress{
+    display: none;
+  }
 
   div.navbar div.nav ul {
     margin-left: auto;
