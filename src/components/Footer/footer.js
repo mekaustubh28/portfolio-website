@@ -1,7 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import ContactSVG from "../statics/mail.svg"
-import Logo from "../statics/logo2.svg"
+import Logo from "../statics/logonew.svg"
 
 export default function Footer() {
 
@@ -9,18 +9,18 @@ export default function Footer() {
   var day = date.getDay()
   var year = date.getFullYear()
 
-  const wish = ['Sppoky Sunday', 'Mysterious Monday', 'Thrilling Tuesday', 'Warm Wednesday', 'Thrilling Thursday', 'Fantastic Friday', 'Spooky Saturday']
+  const wish = ['Surprising Sunday', 'Mysterious Monday', 'Thrilling Tuesday', 'Warm Wednesday', 'Thrilling Thursday', 'Fantastic Friday', 'Spooky Saturday']
   return (
     <>
       <div className="footer">
         <div className="contactInfo">
           <h2>Contact Information<span>.</span></h2>
           <p>Feel free to reach out to me any time.</p>
-          <a href="mailto:vermakaustubh28@gmail.com"><span><img src={ContactSVG} alt="mailLogo" width='20px' /></span>vermakaustubh28@gmail.com</a>
+          <a href="mailto:hi@vermakaustubh.in"><span><img src={ContactSVG} alt="mailLogo" width='20px' /></span>hi@vermakaustubh.in</a>
           <h2 className="day">Have a {wish[day]}</h2>
         </div>
         <div className="logo">
-          <img src={Logo} alt="logo.png" width='80px'/>
+          <img src={Logo} alt="logo.png" width='80px' />
         </div>
         <div className="copyright">
           &#xA9; 2021-{year} Kaustubh Verma<br></br>
