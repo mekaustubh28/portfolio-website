@@ -1,7 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import ContactSVG from "../statics/mail.svg"
-import Logo from "../statics/logonew.svg"
+import Logo from "../statics/logored.svg"
 
 export default function Footer() {
 
