@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f7dbbc6.css",
+    "main.js": "/static/js/main.8abad121.js",
+    "static/media/half.jpg": "/static/media/half.cff1f4ff33c5699627e7.jpg",
+    "static/media/coding.jpg": "/static/media/coding.409f109acf752346c5c0.jpg",
+    "static/media/background.jpg": "/static/media/background.161851fb152c647b2acd.jpg",
+    "static/media/peddlers.png": "/static/media/peddlers.3643242514ec5ef6afbc.png",
+    "static/media/edification.png": "/static/media/edification.535df60f36c09bdeeb31.png",
+    "static/media/portfolio.png": "/static/media/portfolio.d0b6700eeb39a3fe4de6.png",
+    "static/media/contactimg.jpg": "/static/media/contactimg.63080c331f9278432536.jpg",
+    "static/media/athena.png": "/static/media/athena.a17b0db8686ccb3ece9c.png",
+    "static/media/iste.png": "/static/media/iste.4bbf3ab802ac4f7310c7.png",
+    "static/media/sad.gif": "/static/media/sad.60657e61f28ff6d755b2.gif",
+    "static/media/2.jpg": "/static/media/2.1c3999378a7599ad01c4.jpg",
+    "static/media/iste.svg": "/static/media/iste.dd133c1f6719f9936efafe3121ea1b71.svg",
+    "static/media/mail.svg": "/static/media/mail.16ecfe1eaf048d6790267de7722c0835.svg",
+    "index.html": "/index.html",
+    "static/media/logored.svg": "/static/media/logored.5735be5ec50352cdc0661ff26c672ddf.svg",
+    "main.2f7dbbc6.css.map": "/static/css/main.2f7dbbc6.css.map",
+    "main.8abad121.js.map": "/static/js/main.8abad121.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f7dbbc6.css",
+    "static/js/main.8abad121.js"
+  ]
+}
