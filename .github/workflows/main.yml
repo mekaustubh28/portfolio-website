@@ -16,18 +16,18 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '21' # or whichever version you need
+        node-version: '21' 
 
     - name: Install dependencies
-      run: npm install # or yarn install, depending on your project setup
+      run: npm install 
 
     - name: Build project
-      run: npm run build # or whatever command you use to build your project
+      run: npm run build 
       
     - name: Copy build folder to gh-pages branch
       run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
+        git config --global user.email "vermakaustubh28@gmail.com"
+        git config --global user.name "Kaustubh Verma"
         git checkout --orphan gh-pages
         git rm -rf .
         cp -r build .
