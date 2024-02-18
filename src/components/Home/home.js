@@ -7,7 +7,6 @@ export default function Home() {
 
   return (
     <>
-    {/* ,transform:Transform,  onMouseMove={backgroundMove}  */}
       <div className="backgroundHome"style={{position:"fixed",zIndex:-9}}>
       {/* <span className="topleft">👇You are great!</span><span className="bottomleft">👉You are Awesome!</span><span className="bottomright">🎁 You just got the hidden Treasure<a>Hidden</a>!</span> */}
       </div>
@@ -20,7 +19,8 @@ export default function Home() {
           <Link className="contact" to="/contact">Let's Talk</Link><span style={{margin:'2%'}}>or</span>
           <Link className="contact" to="/project">View Work</Link>
         </div>
-         {/* <a className="down"><span></span></a> */}
+        {/* eslint-disable-next-line */}
+         <a className="down"><span></span></a>
       </div>
     </>
   );

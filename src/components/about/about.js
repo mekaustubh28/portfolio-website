@@ -20,7 +20,7 @@ export default function About() {
             <div className="moreInfo profile">
               <h1>MORE ABOUT ME<span className="dot">.</span></h1>
               <p>--Lets open my book--</p>
-              <h3>I am currently pursing my BTech from <a href="https://nith.ac.in/" target="_blank" style={{ color: '#cf000f' }} rel="noreferrer">NIT,Hamirpur</a>.I am a Python Developer, who loves to build dyanmic and responsive website. I am also member of <a href="https://www.istenith.com/" target="_blank" style={{ color: '#cf000f' }}>ISTE, NITH Chapter</a>.</h3>
+              <h3>I am currently pursing my BTech from <a href="https://nith.ac.in/" target="_blank" style={{ color: '#cf000f' }} rel="noreferrer">NIT,Hamirpur</a>.I am a Python Developer, who loves to build dyanmic and responsive website. I am also member of <a href="https://www.istenith.com/" target="_blank" style={{ color: '#cf000f' }} rel='noreferrer'>ISTE, NITH Chapter</a>.</h3>
               <br></br>
               <p>I love to talk to different people. Over a year i have tried to boost my skills and learn new stuff. if i am not at my desk, you will find me playing badminton or sleeping.</p>
               <br></br>
@@ -56,7 +56,7 @@ export default function About() {
           </div>
         </div>
         <div className="Third-container">
-          <img className="halfPic" src={halfPic} />
+          <img className="halfPic" src={halfPic} alt='halfPic'/>
           <div class="randomFacts">
             <h1>Random Facts<span>.</span></h1>
             <ul>

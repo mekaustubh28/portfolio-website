@@ -55,6 +55,7 @@ export default function Project() {
         <div className="projects">
           {Projects.map((value, index) => {
             return (
+              // eslint-disable-next-line
               <a className="project" id={value.name} key={index}>
                 <img src={value.image} className={value.name} alt="projectImage" />
                 <div className="details">

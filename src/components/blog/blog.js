@@ -1,25 +1,18 @@
-import React from 'react'
-import {Switch, Route, useRouteMatch } from 'react-router-dom';
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Error404 from '../404/error404';
 import Blog1 from './blog1';
 import Blog2 from './blog2';
 
-export default function Blog(){
-    const { path } = useRouteMatch();
-    return(
-        <>
-            <h1>Blog Section</h1>
-            <Switch>
-                <Route path={`${path}/blog1`}>
-                    <Blog1 />
-                </Route>
-                <Route  path={`${path}/blog2`}>
-                    <Blog2 />
-                </Route>
-                <Route  path={`${path}/*`}>
-                    <Error404 />
-                </Route>
-            </Switch>
-        </>
-    )
+export default function Blog() {
+  return (
+    <>
+      <h1>Blog Section</h1>
+      <Routes>
+        <Route path="blog1" element={<Blog1 />} />
+        <Route path="blog2" element={<Blog2 />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </>
+  );
 }
