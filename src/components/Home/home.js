@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div className="home">
         <div className="info ">
-          <p>Hello,I'm Kaustubh Verma</p>
+          <p>Hola,I'm Kaustubh Verma</p>
           <h1>Full Stack Developer and <br></br> Web3 Enthusiast<span>.</span></h1>
           <p>I enjoy creating stuff that envolve Programming,<br></br> and love to built new stuff. </p>
           <br></br>
